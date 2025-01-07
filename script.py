@@ -1,6 +1,9 @@
 import os
 import subprocess
 
+# initial run: git config --global --add safe.directory C:/folder-to-script.py
+# and: git push --set-upstream origin main
+
 # Path to the counter file
 counter_file_path = 'counter.txt'
 
@@ -28,3 +31,6 @@ subprocess.run(['git', 'add', counter_file_path])
 # Commit the change
 commit_message = f'Update counter to {counter}'
 subprocess.run(['git', 'commit', '-m', commit_message])
+
+# Push the changes to the remote repository
+subprocess.run(['git', 'push'])
