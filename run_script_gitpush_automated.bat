@@ -1,4 +1,4 @@
 @echo off
-cd /d "C:\Users\gfabi\Documents\Programmierung\AutomatedCommitGithub"
-python "C:\Users\gfabi\Documents\Programmierung\AutomatedCommitGithub\script.py"
+cd /d "path-to-script-folder"
+python "path-to-script-folder\script.py"
 pause
