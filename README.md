@@ -28,13 +28,15 @@ Daily
 Weekly
 At startup, etc.
 Action: Select Start a Program.
+
 Program/Script:
-If using a batch file, browse to C:\Scripts\run_script.bat.
+If using a batch file, browse to path-to-bat-file\run_script_gitpush_automated.bat.
+
 If running the script directly, enter the full path to your Python executable and add the script as an argument, like this:
 Program/script: C:\Users\YourUsername\AppData\Local\Programs\Python\Python39\python.exe
 Add arguments: "C:\Scripts\script.py"
 
-3. Set Additional Settings
+4. Set Additional Settings
 Click Finish, and the task will be created.
 Open the task properties and ensure Run with highest privileges is checked if needed (especially for scripts requiring admin access).
 Confirm your task is configured correctly by running it manually.
